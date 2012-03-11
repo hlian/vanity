@@ -1,0 +1,69 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times;
+    font-size: 14px;
+    line-height: 2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+
+#text {
+    font-size: 10px;
+    font-family: monospace;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #aaa;
+    width: 500px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+h1 {
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-bottom: 0.44em;
+    font-size: 2.25em;
+    text-align: left;
+}
+
+#me {
+    position: relative;
+    margin-top: 30%;
+    margin-left: 45%;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 5px #ccc;
+    color: #333;
+    padding: 10px;
+    z-index: 5;
+    text-align: justify;
+}
+
+#me p + p {
+    margin-top: 1em;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
