@@ -29,7 +29,7 @@ canvas {
     padding-left: 15px;
     padding-top: 10px;
     color: #aaa;
-    width: 450px;
+    width: 500px;
     cursor: pointer;
     z-index: 5;
 }
@@ -46,7 +46,7 @@ h1 {
     position: relative;
     margin-top: 30%;
     margin-left: 45%;
-    width: 500px;
+    width: 450px;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 1px 1px 5px #ccc;
     color: #333;
