@@ -44,7 +44,7 @@ h1 {
 
 #me {
     position: relative;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 45%;
     width: 450px;
     background: rgba(255, 255, 255, 0.8);
@@ -52,7 +52,6 @@ h1 {
     color: #333;
     padding: 10px;
     z-index: 5;
-    text-align: justify;
 }
 
 #me p + p {
